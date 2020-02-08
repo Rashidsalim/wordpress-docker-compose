@@ -3,9 +3,9 @@
 Easy WordPress development with Docker and Docker Compose.
 
 With this project you can quickly run the following:
-
+- [Traefik 2.0](https://hub.docker.com/_/traefik)
 - [WordPress and WP CLI](https://hub.docker.com/_/wordpress/)
-- [phpMyAdmin](https://hub.docker.com/r/phpmyadmin/phpmyadmin/)
+- [adminer](https://hub.docker.com/_/adminer/)
 - [MySQL](https://hub.docker.com/_/mysql/)
 
 Contents:
@@ -28,6 +28,8 @@ Make sure to [add your user to the `docker` group](https://docs.docker.com/insta
 Edit the `.env` file to change the default IP address, MySQL root password and WordPress database name.
 
 ## Installation
+
+Traefik installation
 
 Open a terminal and `cd` to the folder in which `docker-compose.yml` is saved and run:
 
